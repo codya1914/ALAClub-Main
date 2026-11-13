@@ -227,31 +227,6 @@ Frontend and UI/UX Design
 
 Although members have primary areas of responsibility, the project is being developed collaboratively.
 
-## Repository Structure
-
-The repository structure will be updated as implementation begins.
-
-A possible structure is:
-
-```text
-project/
-├── game/
-│   ├── scripts/
-│   ├── characters/
-│   ├── scenes/
-│   ├── images/
-│   ├── audio/
-│   └── saves/
-├── documentation/
-│   ├── requirements/
-│   ├── UML/
-│   └── milestones/
-├── README.md
-└── LICENSE
-```
-
-The exact structure will depend on the final game engine and implementation approach.
-
 ## Development Status
 
 🚧 **In Development**
