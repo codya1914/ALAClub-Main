@@ -8,7 +8,7 @@ define narrator = Character(None)
 
 # Player information
 default player_name = "Player"
-default friend_name = "Mike"
+default friend_name = "John"
 
 # Backgrounds
 image bg bedroom = Solid("#303b55")
@@ -48,13 +48,13 @@ label start:
     narrator "A message notification appears."
 
     $ friend_name = renpy.input(
-        "What is your freinds name?",
-        default="Mike",
+        "What is your friend's name?",
+        default="John",
         length=20
     ).strip()
 
     if friend_name == "":
-        $ friend_name = "Mike"
+        $ friend_name = "John"
 
     friend "Hey! Are you there?"
 
@@ -65,7 +65,7 @@ label start:
     mc "What is it?"
 
     friend "It's this new online friendship platform."
-    
+
     friend "You can meet people, talk, and make new friends."
 
     mc "You know I don't usually do stuff like that."
@@ -81,7 +81,7 @@ label start:
             mc "Fine. I'll give it a shot."
             jump download_platform
 
-        "Tell Alex you're not interested":
+        "Tell John you're not interested":
             mc "I don't really think it's for me."
             friend "That's fair. Just thought I'd ask."
             jump stay_offline
